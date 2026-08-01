@@ -1,8 +1,27 @@
 aid: scodix
 name: Scodix
-description: Scodix is a company surfaced as a portfolio company of battery-ventures, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Scodix is a digital print enhancement (embellishment) technology company founded in 2007 and
+  headquartered in Rosh HaAyin, Israel. It manufactures the Scodix Ultra series of digital
+  embellishment presses and the Scodix Studio web-to-print software, enabling decorative effects
+  across 17 applications including Spot UV, foil, glitter, metallic, cast-and-cure, braille and
+  variable data. Scodix serves commercial print, folding-carton packaging, publishing and
+  web-to-print markets with over 400 installations worldwide, and went public on the Tel Aviv
+  Stock Exchange (TASE) in 2021. Scodix Studio exposes integration APIs for connecting embellishment
+  workflows to MIS and web-to-print storefronts, but Scodix does not publish a public developer
+  portal, OpenAPI definition, or self-serve API documentation.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://scodix.com/wp-content/uploads/2021/06/scodix-logo.png
 url: https://raw.githubusercontent.com/api-evangelist/scodix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,12 +32,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Printing
+- Digital Printing
+- Embellishment
+- Packaging
+- Web-to-Print
+- Manufacturing
+- Print Technology
 apis: []
+common:
+- type: DomainSecurity
+  url: security/scodix-domain-security.yml
+- type: Website
+  url: https://scodix.com/
+- type: About
+  url: https://scodix.com/company/about-scodix/
+- type: Support
+  url: https://support.scodix.com/
+- type: Blog
+  url: https://scodix.com/news-room/
+- type: Contact
+  url: https://scodix.com/contact-us/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/scodix
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
