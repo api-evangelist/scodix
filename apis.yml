@@ -43,7 +43,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Printing
@@ -55,6 +55,8 @@ tags:
 - Print Technology
 apis: []
 common:
+- url: https://scodix.com/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/scodix-domain-security.yml
 - type: Website
